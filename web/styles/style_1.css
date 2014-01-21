@@ -1,0 +1,453 @@
+/*---------------HOJA DE ESTILOS-----------------*/
+
+@font-face{
+font-family: "fuente";
+    src: url("fonts/3d.ttf");
+}
+
+@font-face{
+font-family: "fuente2";
+    src: url("fonts/ko1.ttf");
+}
+
+@font-face{
+font-family: "alex";
+    src: url("fonts/AlexBrush-Regular-OTF.otf");
+}
+@font-face{
+font-family: "bear";
+    src: url("fonts/BEARPAW_.ttf");
+}
+@font-face{
+font-family: "comf1";
+    src: url("fonts/Comfortaa_Bold.ttf");
+}
+@font-face{
+font-family: "cap1";
+    src: url("fonts/Capture_it.ttf");
+}
+@font-face{
+font-family: "june";
+    src: url("fonts/JUNEBUG_.ttf");
+}
+@font-face{
+font-family: "kom";
+    src: url("fonts/KOMIKAX_.ttf");
+}
+@font-face{
+font-family: "nosi";
+    src: url("fonts/NosiferCaps-Regular.ttf");
+}
+@font-face{
+font-family: "sala";
+    src: url("fonts/SALARYMA.ttf");
+}
+@font-face{
+font-family: "top";
+    src: url("fonts/Top_Secret.ttf");
+}
+
+#botonesGenero{
+    color: white;
+    background-image: url('images/fondoBotonesGenero.png'); background-repeat: no-repeat; height: 210px;width: 980px;
+    font-size: 35px;
+}
+#botonesGenero a {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: lightgrey;
+   background-image: url("images/fondo.png");
+    background-repeat: repeat-x;
+   /* background: #333030;*/
+    font-family: Verdana,sans-serif;
+    padding-top: 0px;
+    font-size: 13px;
+}
+
+
+/*-----------------------------------------------*/
+
+#page{
+    padding: 0px 0px 10px 0px; 
+    margin: 0 auto;
+    width: 1000px;/*80%; */
+    height: 100%
+}
+ 
+/*-----------------------------------------------*/
+
+.boton {
+   border-top: 1px solid #3d3d3d;
+   background: #333030;
+   background: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#333030));
+   background: -webkit-linear-gradient(top, #080808, #333030);
+   background: -moz-linear-gradient(top, #080808, #333030);
+   background: -ms-linear-gradient(top, #080808, #333030);
+   background: -o-linear-gradient(top, #080808, #333030);
+   padding: 9px 18px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family: Verdana,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.boton:hover {
+   border-top-color: #333030;
+   background: #333030;
+   color: #ffffff;
+   }
+.boton:active {
+   border-top-color: #737475;
+   background: #737475;
+   }
+
+/*-----------------------------------------------*/
+
+.banner {
+    width: 1000px;
+   /* background: #333030;*/
+    height: 80px;
+    color: white;
+}
+.log {
+    width: 500px;
+    float :right;
+    height: 80px;
+}
+.logo {    
+    width: 500px;
+    float : left;
+    height: 80px;
+}
+.login a a:hover a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------------*/
+#lista_resultados {
+   /* display: block;
+    width: 1000px;*/
+}
+
+#links{
+    display: block;
+    width: 790px;
+    float: left;        
+}
+
+.DescripcionLista{
+    float: left;
+    vertical-align: top;
+    width: 250px;   
+    padding-bottom: 15px;
+}
+
+.DescripcionLista .desc{
+    text-align:justify;
+    padding: 20px 0px 20px 0px;
+}
+.DescripcionLista .titulo{
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+}
+.DescripcionLista .datos{
+    text-transform: capitalize;
+    
+}
+
+/*-----------------------------------------------*/
+
+#contenido{
+    overflow:hidden;
+    /*width:90%;    */
+    margin:0 auto;
+    display:block;
+    /*position:relative;  */      
+    list-style-type:none;     
+}
+
+#contenido a:visited,a:hover{    
+    text-decoration: none;
+    color: #000;
+    
+}
+
+/*-----------------------------------------------*/
+
+.columnaMenu{
+    text-align: center;
+    width:1000px;     
+}
+
+
+/*-----------------------------------------------*/
+
+.fondoRedondo{
+    background: #898989;
+}
+
+.fondoRedondoTL{
+    width: 23px;
+    height: 23px;
+    background:url(images/fondo-top-left.gif) no-repeat;
+}
+.fondoRedondoTR{
+    width: 23px;
+    height: 23px;
+    background:url(images/fondo-top-right.gif) no-repeat;
+}
+.fondoRedondoBL{
+    width: 23px;
+    height: 23px;
+    background:url(images/fondo-bottom-left.gif) no-repeat;
+}
+.fondoRedondoBR{
+    width: 23px;
+    height: 23px;
+    background:url(images/fondo-bottom-right.gif) no-repeat;
+}
+
+/*-----------------------------------------------*/
+
+.Descripcion{
+}
+
+.Descripcion .desc{
+    padding: 20px 0px 20px 0px;
+}
+.Descripcion .titulo{
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+}
+.Descripcion .datos{
+    text-transform: capitalize;    
+}
+
+.presentacion{
+    border-collapse: collapse;
+    width: 790px;
+    vertical-align: top;
+}
+
+
+/*---------------JWPLAYER-----------------------*/
+
+#contornoPelicula{
+    -moz-box-shadow: 0 0 5px 5px black;
+    -webkit-box-shadow: 0 0 5px 5px black;
+    box-shadow: 0 0 5px 5px black;/*
+    box-shadow: 10px 10px 5px #888; */
+}
+
+
+/*------------------------------------------------*/
+    #facebox {
+
+    /* overlay is hidden before loading */
+    display:none;
+
+    /* standard decorations */
+    width:400px;
+    border:10px solid #666;
+
+    /* for modern browsers use semi-transparent color on the border. nice! */
+    border:10px solid rgba(82, 82, 82, 0.698);
+
+    /* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+  }
+
+  #facebox div {
+    padding:10px;
+    border:1px solid lightgrey;
+    background-color:lightgrey;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    color:#000;
+  }
+
+  #facebox h2 {
+    margin:-11px;
+    margin-bottom:0px;
+    color:#fff;
+    background-color:gray;
+    padding:5px 10px;
+    border:1px solid gray;
+    font-size:20px;
+    text-align: left;
+  }
+  
+  .fondoLogin{
+    text-align: center;
+    color:#fff;
+    width:980px;
+    height: 422px;
+    font-size:35px;      
+  }
+  
+  #fondoGenero{
+   width: 923px;
+    height: 208px;
+    -moz-box-shadow: 0 0 5px 5px black;
+    -webkit-box-shadow: 0 0 5px 5px black;
+    box-shadow: 0 0 5px 5px black;
+    background-color: black;
+    text-align: center;
+  }
+  #generos{
+      padding: 4px 4px 4px 4px;
+  }
+  
+  .container:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+  }
+  .container:-moz-full-screen {
+    width: 100%;
+    height: 100%;
+  }
+  
+  p {
+      text-align: justify;
+  }
+  
+  #footer{
+      width:100%;
+      background:black;
+      color:#b8b8b8;
+      height:60px;
+      font-size: 10px;
+  }
+  
+  #footer a {color:#b8b8b8;text-decoration: none;}
+  
+    /********************************************************/
+      /* single page */
+  .page_scroll {
+      padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+      float: right;
+  }
+
+  /* root element for horizontal scrollables */
+  .scrollable {
+      float: right;
+  position:relative;
+  overflow:hidden;
+  height: 260px;
+  width:800px;
+  }
+
+  /* root element for scrollable items */
+  .scrollable .items {
+  width:20000em;
+  position:absolute;
+  clear:both;
+  }
+
+  /* single scrollable item */
+  .item {
+  float:left;
+  cursor:pointer;
+  padding:10px;
+  }
+
+  .navPrev{
+      float:left;
+      cursor:pointer;
+      padding:10px;
+      width: 30px;
+      height: 223px;
+      position: relative;
+      top: 35%;
+  }
+  
+  
+  .navNext{
+      float:left;
+      cursor:pointer;
+      padding:10px;
+      width: 30px;
+      position: relative;
+      top: 35%;
+      height: 223px;
+  }
+  
+  #criterio{
+      width: 85px;
+  }
+  #tablaMenu{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    /*width: 940px; */
+    height: 30px;
+}
+
+.tituloDiv{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menu{
+    width: 200px;
+    font-size: 25px;
+    float: left;
+    text-align: center;
+}
+
+.menu > div{
+    margin:5px;
+}
+
+.itemMenu>a {
+     text-decoration: none;
+}
+/*
+menu.fixed {
+  top: 0;
+}
+*/
+#cont{
+    width: 790px;
+    float: right;
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#cont>a {
+    text-decoration: none;
+}
+
+.navCap{
+    width: 740px;
+    padding-top: 20px;
+    
+}
+
+.navCapPre, .navCapSig{
+    width: 320px;
+}
+
+.navCapPre{float:left}
+.navCapSig{float:right}
+
+/*.sugerencias{margin-left: 10px;}*/
+.imgSug{float: left}
+
+.generosPref{width: 600px;float: left;}
